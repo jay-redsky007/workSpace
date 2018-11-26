@@ -6,8 +6,13 @@ spring:
   profile: dev
   application: 
     name: microservicecloud-config-dev
+ server: 
+  prot: 8001
 ---
 spring: 
   profile: test
   application: 
     name: microservicecloud-config-test
+    
+ server: 
+  prot: 8002
